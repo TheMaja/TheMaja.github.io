@@ -24,6 +24,6 @@ export default angular
     $mdThemingProvider
       .theme("default")
       .primaryPalette("brown")
-      .accentPalette("indigo");
+      .accentPalette("blue");
   })
   .controller("AppController", AppController);
