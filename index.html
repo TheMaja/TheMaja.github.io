@@ -22,14 +22,13 @@
     </md-button>
     <h1>Themba Ntuli Bio</h1>
   </md-toolbar>
-
+<img src="./assets/svg/themba.jpg" class="avatar" />
   <!-- Container #2 -->
   <div flex layout="row">
-
     <!-- Container #3 -->
     <md-sidenav class="md-whiteframe-4dp" md-is-locked-open="$mdMedia('gt-sm')"
                 md-component-id="left" ng-click="app.toggleList()">
-              <md-toolbar class="md-theme-indigo">
+              <md-toolbar class="md-theme-blue">
           <h1 class="md-toolbar-tools">Menu</h1>
 
       <!-- Custom UsersList component -->
@@ -41,6 +40,7 @@
     </md-sidenav>
 
     <!-- Container #4 -->
+          
     <md-content flex id="content">
       <!-- Custom UserDetails component -->
       <user-details

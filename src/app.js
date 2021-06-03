@@ -13,7 +13,7 @@ export default angular
   .config(($mdIconProvider, $mdThemingProvider) => {
     // Register the user `avatar` icons
     $mdIconProvider
-      .defaultIconSet("./assets/svg/avatars.svg", 128)
+      .icon("themba", "./assets/svg/themba.jpg", 128)
       .icon("menu", "./assets/svg/menu.svg", 24)
       .icon("share", "./assets/svg/share.svg", 24)
       .icon("google_plus", "./assets/svg/google_plus.svg", 24)
@@ -23,7 +23,8 @@ export default angular
 
     $mdThemingProvider
       .theme("default")
-      .primaryPalette("brown")
-      .accentPalette("blue");
+      .dark()
+      .primaryPalette("blue")
+      .accentPalette("pink");
   })
   .controller("AppController", AppController);
