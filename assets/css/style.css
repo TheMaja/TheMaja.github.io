@@ -85,10 +85,6 @@
   -webkit-border-radius: 5px;
 }
 
-  color: white;
-  background-color: #00796b;
-} */
-
 .contactme {
   position: relative;
   padding: 11px 35px;
@@ -247,7 +243,6 @@ h3 {
   height: 100vh;
 }
 
-
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
@@ -260,7 +255,6 @@ h3 {
   position: absolute;
   top: 0;
 }
-
 
 #intro.section .container *:not(span) {
   font-weight: 300;
@@ -466,7 +460,6 @@ small {
 .teal {
   background-color: #008073 !important;
 }
-
 
 @media (min-width: 1200px) {
   #experience .container {
